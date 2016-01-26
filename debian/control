@@ -1,0 +1,19 @@
+Source: pycapnp
+Section: python
+Priority: optional
+Maintainer: Christian Franke <chris@opensourcerouting.org>
+Build-Depends: debhelper (>= 9),
+ dh-python,
+ python-all (>= 2.6.6-3), python-setuptools,
+ cython, capnproto, libcapnp-dev
+Standards-Version: 3.9.6.1
+Homepage: https://pypi.python.org/pypi/pycapnp
+X-Python-Version: >= 2.6
+Vcs-Git: https://git.netdef.org/scm/osr/pycapnp.git
+Vcs-Browser: https://git.netdef.org/projects/OSR/repos/pycapnp/
+
+Package: python-pycapnp
+Architecture: any
+Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Provides: ${python:Provides}
+Description: cython wrapping of the C++ Cap'n Proto library

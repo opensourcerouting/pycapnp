@@ -1,0 +1,5 @@
+pycapnp (0.5.7-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Christian Franke <chris@opensourcerouting.org>  Tue, 26 Jan 2016 15:46:12 +0000
